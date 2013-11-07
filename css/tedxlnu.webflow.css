@@ -326,7 +326,21 @@ p {
 }
 .footer-text {
   display: inline;
+	float: left;
 }
+.social-share {
+	float: right;
+	display: block;
+	margin: 3px 0 0;
+}
+.social-share div, .social-share a{
+	margin: 0 10px;
+	padding: 0;
+}
+.social-share div.fb-like {
+	margin-right: 30px;
+}
+
 .center {
   text-align: center;
 }
@@ -521,6 +535,23 @@ p {
   .subfooter-left {
     text-align: center;
   }
+.footer-text {
+  display: inline;
+	float: none;
+}
+.social-share {
+	display: block;
+		position: relative;
+		width: 100%;
+		margin: 20px 0 0;
+}
+.social-share div, .social-share a{
+	margin: 0 10px;
+	padding: 0;
+}
+.social-share div.fb-like {
+	margin-right: 30px;
+}
 }
 @media (max-width: 479px) {
   h3 {
