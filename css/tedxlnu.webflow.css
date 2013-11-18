@@ -422,6 +422,23 @@ p {
   font-size: 22px;
   font-style: italic;
 }
+.additional-info {
+  font-size: 13px;
+  line-height: 19px;
+  font-style: italic;
+}
+.speaker-photo {
+  border-radius: 200px;
+}
+.speaker-row {
+  padding-top: 60px;
+}
+.speaker-row span {
+	display: block;
+	margin-top: -2px;
+	color: #b4b0b0;
+	font-size: 15px;
+}
 @media (max-width: 991px) {
   p {
     font-size: 14px;
@@ -552,7 +569,14 @@ p {
 .social-share div.fb-like {
 	margin-right: 30px;
 }
+	.speaker-photo {
+	  border-radius: 250px;
+	}
+	.registration {
+		padding: 0 10px;
+	}
 }
+
 @media (max-width: 479px) {
   h3 {
     font-size: 18px;
@@ -602,4 +626,8 @@ p {
   .price-text {
     font-size: 23px;
   }
+  .speaker-photo {
+    width: 130px;
+  }
 }
+
