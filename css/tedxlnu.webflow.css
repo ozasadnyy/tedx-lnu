@@ -238,6 +238,15 @@ p {
   line-height: 22px;
   text-shadow: rgba(0, 0, 0, 0.24) 0px 2px 0px;
 }
+.hero-subtitle a {
+	font-size: 13px;
+	text-decoration: none;
+	font-style:italic;
+	color: rgba(255, 255, 255, 0.83);
+}
+.hero-subtitle a:hover {
+	text-decoration: underline;
+}
 .big-image {
   text-shadow: none;
 }
@@ -435,8 +444,13 @@ p {
 }
 .speaker-row span {
 	display: block;
-	margin-top: -2px;
+	margin-top: 5px;
 	color: #b4b0b0;
+	font-size: 17px;
+	line-height: 20px;
+}
+.speaker-row h4 {
+	color: #848484;
 	font-size: 15px;
 }
 @media (max-width: 991px) {
@@ -627,7 +641,7 @@ p {
     font-size: 23px;
   }
   .speaker-photo {
-    width: 130px;
+    width: 150px;
   }
 }
 
